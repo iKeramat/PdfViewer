@@ -20,7 +20,7 @@ android_library_import {
 }
 
 android_library {
-    name: "lib-com.google.android.material_material",
+    name: "pdfviewer-com.google.android.material_material",
     sdk_version: "current",
     min_sdk_version: "14",
     manifest: "manifests/com.google.android.material_material/AndroidManifest.xml",
