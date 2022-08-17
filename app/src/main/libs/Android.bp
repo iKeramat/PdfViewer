@@ -1,5 +1,5 @@
 android_library_import {
-    name: "lib-com.google.android.material_material-nodeps",
+    name: "pdfviewer-com.google.android.material_material-nodeps",
     aars: ["material-1.6.1.aar"],
     sdk_version: "current",
     min_sdk_version: "14",
@@ -25,7 +25,7 @@ android_library {
     min_sdk_version: "14",
     manifest: "manifests/com.google.android.material_material/AndroidManifest.xml",
     static_libs: [
-        "lib-com.google.android.material_material-nodeps",
+        "pdfviewer-com.google.android.material_material-nodeps",
         "androidx.annotation_annotation",
         "androidx.appcompat_appcompat",
         "androidx.cardview_cardview",
@@ -41,10 +41,4 @@ android_library {
         "androidx-constraintlayout_constraintlayout",
     ],
     java_version: "1.7",
-}
-
-android_library_import {
-    name: "lib-constraintlayout",
-    aars: ["constraintlayout-2.1.4.aar"],
-    sdk_version: "current",
 }

@@ -29,11 +29,11 @@ android_app {
     static_libs: [
         "android-common",
         "androidx.appcompat_appcompat",
-        "lib-com.google.android.material_material",
-        "lib-constraintlayout",
+        "androidx-constraintlayout_constraintlayout",
         "kotlin-annotations",
         "kotlinx-coroutines-android",
         "kotlinx-coroutines-core",
+        "pdfviewer-com.google.android.material_material",
     ],
 
     platform_apis: true,
