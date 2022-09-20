@@ -1,1 +1,0 @@
-../../../../third_party/pdfjs-dist/build/pdf.worker.min.js

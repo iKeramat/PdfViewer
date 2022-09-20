@@ -1,1 +1,0 @@
-../../../../third_party/pdfjs-dist/build/pdf.min.js
