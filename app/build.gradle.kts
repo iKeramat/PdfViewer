@@ -32,7 +32,7 @@ android {
         }
     }
 
-    compileSdk = 33
+    compileSdk = 32
     buildToolsVersion = "33.0.0"
 
     namespace = "app.grapheneos.pdfviewer"
