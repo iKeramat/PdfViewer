@@ -15,10 +15,11 @@
 android_app {
     name: "Pdfviewer",
 
+    asset_dirs: ["assets"],
+
     resource_dirs: ["res"],
 
     srcs: [
-        "assets/*",
         "java/**/*.java",
         "java/**/*.kt",
         "java_aosp/**/*.java",
